@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="certBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Border & Paper -->
+  <rect width="800" height="560" rx="16" fill="url(#certBg)" stroke="#334155" stroke-width="2" />
+  <rect x="24" y="24" width="752" height="512" rx="12" fill="#0b0f19" stroke="url(#goldGrad)" stroke-width="2" stroke-opacity="0.6" />
+  <rect x="34" y="34" width="732" height="492" rx="8" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="8,6" />
+
+  <!-- Corner Ornaments -->
+  <path d="M 45 65 L 65 45 M 45 45 L 75 45 M 45 45 L 45 75" stroke="#fbbf24" stroke-width="2" fill="none"/>
+  <path d="M 755 65 L 735 45 M 755 45 L 725 45 M 755 45 L 755 75" stroke="#fbbf24" stroke-width="2" fill="none"/>
+  <path d="M 45 495 L 65 515 M 45 515 L 75 515 M 45 515 L 45 485" stroke="#fbbf24" stroke-width="2" fill="none"/>
+  <path d="M 755 495 L 735 515 M 755 515 L 725 515 M 755 515 L 755 485" stroke="#fbbf24" stroke-width="2" fill="none"/>
+
+  <!-- Header -->
+  <text x="400" y="90" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#94a3b8" letter-spacing="4" text-anchor="middle">VARDHMAN MAHAVEER OPEN UNIVERSITY, KOTA</text>
+  <text x="400" y="115" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#64748b" letter-spacing="2" text-anchor="middle">RAJASTHAN KNOWLEDGE CORPORATION LIMITED (RKCL)</text>
+
+  <text x="400" y="165" font-family="system-ui, Georgia, serif" font-size="30" font-weight="800" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="1">CERTIFICATE OF COMPLETION</text>
+  <text x="400" y="195" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#94a3b8" text-anchor="middle">This is proudly awarded to</text>
+
+  <!-- Candidate Name -->
+  <text x="400" y="245" font-family="system-ui, sans-serif" font-size="34" font-weight="800" fill="#f8fafc" text-anchor="middle" letter-spacing="0.5">ARYAN SHARMA</text>
+  <line x1="260" y1="260" x2="540" y2="260" stroke="#475569" stroke-width="1.5" />
+
+  <!-- Course description -->
+  <text x="400" y="295" font-family="system-ui, sans-serif" font-size="15" font-weight="400" fill="#cbd5e1" text-anchor="middle">for successfully completing with distinction the IT literacy program</text>
+  
+  <text x="400" y="335" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="url(#accentGrad)" text-anchor="middle" letter-spacing="1">RS-CIT (Rajasthan State Certificate in Information Technology)</text>
+
+  <!-- Score Badge / Seal -->
+  <g transform="translate(400, 420)">
+    <circle cx="0" cy="0" r="44" fill="#1e1b4b" stroke="url(#goldGrad)" stroke-width="2.5" />
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#d97706" stroke-width="1" stroke-dasharray="4,3" />
+    <text x="0" y="-8" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">SCORE</text>
+    <text x="0" y="16" font-family="system-ui, sans-serif" font-size="24" font-weight="900" fill="#fef08a" text-anchor="middle">90%</text>
+    <text x="0" y="29" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#fde047" text-anchor="middle">DISTINCTION</text>
+  </g>
+
+  <!-- Verification note -->
+  <text x="140" y="475" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">Course: RS-CIT</text>
+  <text x="140" y="495" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">Issued by: VMOU Kota &amp; RKCL</text>
+
+  <text x="660" y="475" font-family="system-ui, sans-serif" font-size="12" fill="#64748b" text-anchor="end">Status: Verified Official</text>
+  <text x="660" y="495" font-family="system-ui, sans-serif" font-size="12" fill="#38bdf8" text-anchor="end">Replace with certificate.jpg</text>
+</svg>
